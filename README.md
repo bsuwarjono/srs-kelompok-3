@@ -75,40 +75,40 @@ Mata Kuliah Rekayasa Perangkat Lunak
 <p>User &nbsp;adalah yang  digunakan oleh mahasiswa yang memiliki &nbsp;hak &nbsp;untuk melakukan test dan melihat hasil  test untuk dirinya saja.</p>
 <p>Karekteristik pengguna  atau user dapat juga dijabarkan dalam table berikut ini.<br />
     <strong>Tabel 1 Karekteristik Pengguna</strong></p>
-<table border="1" cellspacing="0" cellpadding="0" width="100%">
-  <tr>
-    <td width="91"><p>Kategori Pengguna</p></td>
-    <td width="228"><p>Tugas</p></td>
-    <td width="192"><p>Hak Akses ke Aplikasi</p></td>
-    <td width="144"><p>Kemampuan yang harus di miliki</p></td>
+<table border="1" cellspacing="0" cellpadding="0" width="866">
+  <tr align="center"  bgcolor="#EFEFEF">
+    <td width="124" height="35"><p>Kategori Pengguna</p></td>
+    <td width="283"><p>Tugas</p></td>
+    <td width="228"><p>Hak Akses ke Aplikasi</p></td>
+    <td width="221"><p>Kemampuan yang harus di miliki</p></td>
   </tr>
   <tr>
-    <td width="91"><p><strong>Admin </strong></p></td>
-    <td width="228"><ol>
+    <td width="124"><p><strong>Admin </strong></p></td>
+    <td width="283"><ol>
       <li>Mengelola data soal atau bank soal</li>
       <li>Mengelola jadwal test</li>
       <li>Mengelola soal-soal yang akan ditestkan ke mahasiswa    sesuai jadwal</li>
       <li>Mengelola rekap nilai</li>
     </ol></td>
-    <td width="192"><ol>
+    <td width="228"><ol>
       <li>Akses data soal</li>
       <li>Akses data jadwal test</li>
       <li>Akses soal yang di akan ditestkan</li>
       <li>Akses rekap nilai test</li>
       <li>Akses download rekap nilai</li>
     </ol>
-        <p>&nbsp;</p></td>
-    <td width="144"><p>Memiliki Pengetahuan    pengunaan aplikasi berbasis web</p></td>
+    <p>&nbsp;</p></td>
+    <td width="221"><p>Memiliki Pengetahuan    pengunaan aplikasi berbasis web</p></td>
   </tr>
   <tr>
-    <td width="91"><p><strong>User</strong></p></td>
-    <td width="228"><ol>
+    <td width="124"><p><strong>User</strong></p></td>
+    <td width="283"><ol>
       <li>Mengerjakan atau menjawab soal yang telah disediakan    sesuai jadwal test</li>
     </ol></td>
-    <td width="192"><ol>
+    <td width="228"><ol>
       <li>Akses jadwal    test</li>
       <li>Akses soal test</li>
     </ol></td>
-    <td width="144"><p>Memiliki    pengetahuan aplikasi berbasis web.</p></td>
+    <td width="221"><p>Memiliki    pengetahuan aplikasi berbasis web.</p></td>
   </tr>
 </table>
