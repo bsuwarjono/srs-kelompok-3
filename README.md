@@ -74,7 +74,7 @@ Mata Kuliah Rekayasa Perangkat Lunak
 <p>User &nbsp;adalah yang  digunakan oleh mahasiswa yang memiliki &nbsp;hak &nbsp;untuk melakukan test dan melihat hasil  test untuk dirinya saja.</p>
 <p>Karekteristik pengguna  atau user dapat juga dijabarkan dalam table berikut ini.<br />
     <strong>Tabel 1 Karekteristik Pengguna</strong></p>
-<table border="1" cellspacing="0" cellpadding="0" width="655">
+<table border="1" cellspacing="0" cellpadding="0" width="100%">
   <tr>
     <td width="91"><p>Kategori Pengguna</p></td>
     <td width="228"><p>Tugas</p></td>
