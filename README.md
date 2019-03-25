@@ -1,7 +1,8 @@
 # srs-kelompok-3
-Software Requirement Specification
-
-System Test Online
+<strong><em>Software Requirement  Specifications </em></strong>
+<p>
+  <strong>System Test Online</strong>
+  </p>
 <p>
 disususn oleh : <br>
 181022000010  Suwarjono<br>
@@ -13,7 +14,7 @@ disususn oleh : <br>
 Mata Kuliah Rekayasa Perangkat Lunak
 </p>
 <p></p>
-<p align="center"><strong><em>Software Requirement  Specifications </em></strong><strong>(SRS) untuk <em>Test  Online</em></strong> </p>
+
 <p>&nbsp;</p>
 <p><strong>1. Pendahuluan</strong> </p>
 <p><strong>1.1 Tujuan</strong> </p>
