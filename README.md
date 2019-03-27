@@ -59,12 +59,12 @@ Mata Kuliah Rekayasa Perangkat Lunak
 <p>Produk ini akan  dijalankan oleh admin pemilik sistem  dan oleh user yang memiliki koneksi ke internet. Penggunaan sistem terbagi dua yaitu antar muka  untuk user sebagai mahasiswa  dan antar muka untuk admin sebagai dosen. Produk ini dapat  berjalan &nbsp;pada <em>platform </em>atau sistem operasi apa saja yang mendukung yang  memiliki aplikasi browser baik melalui komputer maupun smartphone</p>
 <br clear="all" />
 <p><strong>2.2 Manfaat Produk</strong> </p>
-<p>Manfaat  yang didapat apabila menggunakan sistem ini antara lain adalah:</p>
+<p>Manfaat yang didapat apabila menggunakan sistem ini antara lain adalah:</p>
 <ol>
   <li>Menjaga kemandirian mahasiswa karna  soal ditampilkan dengan urutan berbeda untuk masing-masing user .</li>
   <li>Mempercepat informasi hasil dari test  karna dapat di ketahui saat setelah selesai menjawab semua soal</li>
-  <li>Mempercepat pembuatan rekap nilai  mahasiswa hasil dari test online</li>
-  <li>Memiliki bank soal yang dapat  digunakan bila diperlukan</li>
+  <li>Mempercepat pembuatan rekap nilai mahasiswa hasil dari test online</li>
+  <li>Memiliki bank soal yang dapat digunakan bila diperlukan</li>
 </ol>
 <p>&nbsp;</p>
 <p><strong>2.3 Karakteristik User</strong> </p>
