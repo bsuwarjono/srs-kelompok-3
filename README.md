@@ -112,3 +112,161 @@ Mata Kuliah Rekayasa Perangkat Lunak
     <td width="221"><p>Memiliki    pengetahuan aplikasi berbasis web.</p></td>
   </tr>
 </table>
+
+<p><strong>2.4 Batasan-batasan</strong> </p>
+<ol>
+  <li>Khusus untuk user hanya login saat  mengikuti test dengan memasukan Nim dan Nama Mahasiswa dengan password dan  waktu yang telah ditentukan oleh admin pada saat pembuatan jadwal test.</li>
+  <li>Users yang berhak untuk mengakses  sistem ini adalah admin sebagai Dosen dan User sebagai Mahasiswa.</li>
+  <li>Aplikasi ini hanya dapat diakses  melalui jaringan internet</li>
+  <li>Aplikasi diakses dengan browser baik  yang ada dikomputer maupun smartphone</li>
+  <li>Aplikasi diletakan diserver internet  atau hosting yang mendukung apache, php dan mysql</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>2.5 Asumsi  dan Ketergantungan</strong> </p>
+<ol>
+  <li>User&nbsp;  &nbsp;pengguna&nbsp; &nbsp;sistem&nbsp;  &nbsp;informasi&nbsp; &nbsp;ini&nbsp;  &nbsp;minimal&nbsp;  &nbsp;tahu&nbsp;  &nbsp;dan&nbsp;  &nbsp;dapat mengoperasikan komputer terutama  untuk aplikasi berbasis <em>web</em>.</li>
+  <li>Tersedia sarana web server atau  hosting dan internet untuk mengakses aplikasi ini</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>3. Kebutuhan Spesifik</strong> </p>
+<p><strong>3.1 Kebutuhan Fungsional</strong> </p>
+<p>Kebutuhan fungsional sistem ini terdiri  atas beberapa fungsi utama yang saling  berhubungan dan mendukung satu sama lain, yang meliputi  fungsi- fungsi sebagai berikut:</p>
+<ol>
+  <li>Input data soal oleh <em>admin</em>.</li>
+  <li>Pembuatan jadwal test dan soal yang  dipilih oleh <em>admin</em>.</li>
+  <li>Menjawab soal test oleh <em>user</em></li>
+  <li>Menampilkan hasil nilai dari test  pada masing-masing <em>user</em>.</li>
+  <li>Menampilkan laporan rekap nilai hasil  dari test oleh <em>admin</em>.</li>
+</ol>
+<p>Untuk &nbsp;masing-masing  &nbsp;fungsi&nbsp; diatas &nbsp;akan &nbsp;dijelaskan &nbsp;secara &nbsp;mendetil  sebagai berikut:<br />
+  1.&nbsp; Input data  soal : sistem menerima input data soal dari <em>admin</em>, dan dapat menyisipkan file  dalam bentuk gambar jika dibutuhkan.<br />
+  2. Pembuatan  jadwal test dan soal yang dipilih &nbsp;dari &nbsp;<em>admin</em> &nbsp;:  &nbsp;sistem&nbsp; menyimpan waktu dimulainya test dan soal-soal  yang dipilih admin untuk dikerjakan oleh user.<br />
+  3.  Menjawab soal test oleh <em>user</em> : user  menjawab soal yang ditampilkan secara acak oleh sistem.<br />
+  4. Menampilkan  hasil nilai dari test pada masing-masing <em>user</em> : setelah user menjawab semua soal maka sistem akan menampilkan nilai yang  diperoleh dari perhitungan jumlah jawaban benar dibagi jumlah soal dan  dikalikan 100.<br />
+  5. Menampilkan  laporan rekap nilai hasil dari test semua user  : sistem menampilkan hasil  rekap test semua user dengan menampilkan jawaban user di urutkan berdasarkan  urutan soal dan kunci jawaban serta menampilkan nilai akhir dan diurutkan  berdasarkan perinkingan serta dapat di simpan dalam bentuk file excel.</p>
+<p><strong>3.1.1 Use Case Diagram</strong><br />
+    <img width="576" height="457" src="bausir.net/gambar/gbr1.jpg" alt="testonline1.jpeg" /> </p>
+<p>&nbsp;</p>
+<p><strong>3.1.2 Activity Diagram</strong><br />
+    <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>A. Activity Login Admin<br />
+    <img width="440" height="409" src="bausir.net/gambar/gbr2.jpg" alt="login dosen.jpeg" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B. Activity Login User<br />
+  <img width="441" height="406" src="bausir.net/gambar/gbr3.jpg" alt="loginmahasiswa2.jpeg" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C. Activity Bank Soal<br />
+  <img width="430" height="432" src="bausir.net/gambar/gbr4.jpg" alt="banksoal.jpeg" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D. Activity Jadwal Test<br />
+  <img width="424" height="420" src="bausir.net/gambar/gbr5.jpg" alt="jadwaltest2.jpeg" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E. Activity Test User<br />
+  <img width="436" height="528" src="bausir.net/gambar/gbr6.jpg" alt="testmahasiswa.jpeg" /> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F. Activity Rekap Nilai<br />
+  <img width="455" height="283" src="bausir.net/gambar/gbr7.jpg" alt="rekapnilai.jpeg" /> </p>
+<p>&nbsp;</p>
+<p><strong>3.1.2 Sequence Diagram</strong></p>
+<ol>
+  <li>Sequence Login Admin</li>
+</ol>
+<p><img width="533" height="335" src="bausir.net/gambar/gbr7.jpg" alt="login.JPG" /> </p>
+<ol>
+  <li>Sequence Login User</li>
+</ol>
+<p><img width="515" height="274" src="bausir.net/gambar/gbr8.jpg" alt="loginuser.JPG" /> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ol>
+  <li>Sequence Bank Soal</li>
+</ol>
+<p><img width="454" height="460" src="bausir.net/gambar/gbr9.jpg" alt="soal.jpeg" /> </p>
+<ol>
+  <li>Sequence Jadwal Test</li>
+</ol>
+<p><img width="446" height="389" src="bausir.net/gambar/gbr10.jpg" alt="jadwal.jpeg" /> </p>
+<ol>
+  <li>Sequence Test User</li>
+  <li>Sequence Rekap Nilai</li>
+</ol>
+<p><strong>3.2 Kebutuhan Non Fungsional</strong> </p>
+<p>Dalam &nbsp;sistem &nbsp;test  online &nbsp;ini, &nbsp;kebutuhan &nbsp;yang &nbsp;mendukung  &nbsp;kelancaran  fungsi-fungsi utama dapat didefinisikan pada  Tabel 1.</p>
+<p><strong>T</strong><strong>abel 2  Kebutuhan Non Fungsional</strong></p>
+<table border="1" cellspacing="0" cellpadding="0" width="564">
+  <tr>
+    <td width="156" valign="top"><p><strong>Parameter</strong></p></td>
+    <td width="408" valign="top"><p><strong>Requirement</strong></p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Availability</em></p></td>
+    <td width="408"><p>24 jam nonstop,    kecuali ada maintenance / perbaikan sistem.</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>&nbsp;</em></p>
+        <p><em>Reliability</em></p></td>
+    <td width="408"><p>Kegagalan yang ditolerir sekitar 5%.</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Ergonomy</em></p></td>
+    <td width="408"><p>Sistem test online    ini harus user friendly dengan tampilan&nbsp;    responsive</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Portability</em></p></td>
+    <td width="408"><p>Sistem ini berjalan pada platform atau sistem    operasi apa saja yang memiliki browser untuk akses aplikasi</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Memory</em></p></td>
+    <td width="408"><p>Minimum memory 128    MB</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Response Time</em></p></td>
+    <td width="408"><p>Tidak lebih dari 15 detik</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Security</em></p></td>
+    <td width="408"><p>Login&nbsp; users&nbsp;    dan&nbsp; validasi&nbsp; data&nbsp;    sangat&nbsp; penting</p></td>
+  </tr>
+  <tr>
+    <td width="156"><p><em>Bahasa</em></p></td>
+    <td width="408"><p>Menu dan tampilan bisa menggunakan&nbsp;&nbsp; bahasa&nbsp;&nbsp;    Inggris dan indonesia</p></td>
+  </tr>
+</table>
+<p><strong>3.3 Kebutuhan AntarMuka</strong> </p>
+<p>Kebutuhan antarmuka  dalam program ini antara lain adalah  kebutuhan perangkat&nbsp;&nbsp; keras&nbsp; &nbsp;berupa&nbsp;  &nbsp;<em>Personal&nbsp; &nbsp;Computer&nbsp; &nbsp;</em>(PC)&nbsp; &nbsp;berupa&nbsp;&nbsp; <em>Central Processing&nbsp; Unit &nbsp;</em>(CPU),  &nbsp;<em>mouse</em>,  &nbsp;<em>keyboard</em>,  &nbsp;<em>monitor</em>,  &nbsp;dimana&nbsp; perangkat PC  harus terhubung dengan jaringan  internet, untuk user bisa juga mengunakan  smartphone yang terhubung dengan internet. Sedangkan untuk kebutuhan perangkat lunak yang harus  disediakan adalah berupa sebuah  web <em>browser </em>seperti Google Chrome, Mozilla Firefox,  dan sebagainya untuk menjalankan aplikasi berbasis  web.</p>
+<p>&nbsp;</p>
+<p><strong>3.4 Lingkungan Operasi</strong> </p>
+<p>Aplikasi &nbsp;perangkat lunak &nbsp;ini &nbsp;akan&nbsp;  berfungsi dengan&nbsp; spesifikasi &nbsp;seperti pada Tabel 2<br />
+  Tabel 2 Lingkungan  Operasi</p>
+<table border="1" cellspacing="0" cellpadding="0" width="522">
+  <tr>
+    <td width="240" valign="top"><p><strong>Jenis / Kegunaan</strong></p></td>
+    <td width="282" valign="top"><p><strong>Perangkat Lunak yang    Digunakan </strong></p></td>
+  </tr>
+  <tr>
+    <td width="240"><p><em>Sistem Operasi</em></p></td>
+    <td width="282"><p>Linux/ hosting yang    memiliki Cpanel</p></td>
+  </tr>
+  <tr>
+    <td width="240"><p><em>DataBase Management System    (DBMS)</em></p></td>
+    <td width="282"><p>Mysql</p></td>
+  </tr>
+  <tr>
+    <td width="240"><p><em>Pengolah Kata</em></p></td>
+    <td width="282"><p>Microsoft Word</p></td>
+  </tr>
+  <tr>
+    <td width="240"><p><em>Bahasa Pemrograman</em></p></td>
+    <td width="282"><p>PHP, Javascript, HTML</p></td>
+  </tr>
+  <tr>
+    <td width="240"><p><em>Presentasi</em></p></td>
+    <td width="282"><p>Microsoft PowetPoint</p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>3.5&nbsp;  Batasan Perancangan</strong> </p>
+<ol>
+<ul>
+  <li>Sistem ini hanya digunakan untuk test  online dan rekap nilai saja</li>
+  <li>Kelompok users hanya dua saja yaitu  admin sebagai dosen dan user sebagai mahasiswa</li>
+  <li>Data mahasiswa lengkap mahasiswa  tidak disimpan pada sistem ini kecuali NIM dan Namanya saat mengikuti test</li>
+  <li>Download rekap nilai hanya dalam  bentuk file excel</li>
+</ul>
