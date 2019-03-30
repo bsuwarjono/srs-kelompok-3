@@ -6,7 +6,7 @@
 <p>
 disususn oleh : <br>
 181022000010  Suwarjono (bsuwarjono) <br>
-181022000017  Susi  <br>
+181022000017  Susi (susi91) <br>
 181022000063  Michael Raymond Ketty (rayrich-one) <br>
 181022000015  Angelina Hadriani (AngelinaHadriani)<br>
 </p>
