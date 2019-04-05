@@ -145,31 +145,31 @@ Mata Kuliah Rekayasa Perangkat Lunak
   4. Menampilkan  hasil nilai dari test pada masing-masing <em>user</em> : setelah user menjawab semua soal maka sistem akan menampilkan nilai yang  diperoleh dari perhitungan jumlah jawaban benar dibagi jumlah soal dan  dikalikan 100.<br />
   5. Menampilkan  laporan rekap nilai hasil dari test semua user  : sistem menampilkan hasil  rekap test semua user dengan menampilkan jawaban user di urutkan berdasarkan  urutan soal dan kunci jawaban serta menampilkan nilai akhir dan diurutkan  berdasarkan perinkingan serta dapat di simpan dalam bentuk file excel.</p>
 <p><strong>3.1.1 Use Case Diagram</strong><br />
-    <img width="576" height="457" src="bausir.net/gambar/gbr1.jpg" alt="testonline1.jpeg" /> </p>
+    <img width="576" height="457" src="http://bausir.net/gambar/gbr1.jpg" alt="testonline1.jpeg" /> </p>
 <p>&nbsp;</p>
 <p><strong>3.1.2 Activity Diagram</strong><br />
     <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>A. Activity Login Admin<br />
-    <img width="440" height="409" src="bausir.net/gambar/gbr2.jpg" alt="login dosen.jpeg" /> <br />
+    <img width="440" height="409" src="http://bausir.net/gambar/gbr2.jpg" alt="login dosen.jpeg" /> <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B. Activity Login User<br />
-  <img width="441" height="406" src="bausir.net/gambar/gbr3.jpg" alt="loginmahasiswa2.jpeg" /> <br />
+  <img width="441" height="406" src="http://bausir.net/gambar/gbr3.jpg" alt="loginmahasiswa2.jpeg" /> <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C. Activity Bank Soal<br />
-  <img width="430" height="432" src="bausir.net/gambar/gbr4.jpg" alt="banksoal.jpeg" /> <br />
+  <img width="430" height="432" src="http://bausir.net/gambar/gbr4.jpg" alt="banksoal.jpeg" /> <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D. Activity Jadwal Test<br />
-  <img width="424" height="420" src="bausir.net/gambar/gbr5.jpg" alt="jadwaltest2.jpeg" /> <br />
+  <img width="424" height="420" src="http://bausir.net/gambar/gbr5.jpg" alt="jadwaltest2.jpeg" /> <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E. Activity Test User<br />
-  <img width="436" height="528" src="bausir.net/gambar/gbr6.jpg" alt="testmahasiswa.jpeg" /> <br />
+  <img width="436" height="528" src="http://bausir.net/gambar/gbr6.jpg" alt="testmahasiswa.jpeg" /> <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F. Activity Rekap Nilai<br />
-  <img width="455" height="283" src="bausir.net/gambar/gbr7.jpg" alt="rekapnilai.jpeg" /> </p>
+  <img width="455" height="283" src="http://bausir.net/gambar/gbr7.jpg" alt="rekapnilai.jpeg" /> </p>
 <p>&nbsp;</p>
 <p><strong>3.1.2 Sequence Diagram</strong></p>
 <ol>
   <li>Sequence Login Admin</li>
 </ol>
-<p><img width="533" height="335" src="bausir.net/gambar/gbr7.jpg" alt="login.JPG" /> </p>
+<p><img width="533" height="335" src="http://bausir.net/gambar/gbr7.jpg" alt="login.JPG" /> </p>
 <ol>
   <li>Sequence Login User</li>
 </ol>
-<p><img width="515" height="274" src="bausir.net/gambar/gbr8.jpg" alt="loginuser.JPG" /> </p>
+<p><img width="515" height="274" src="http://bausir.net/gambar/gbr8.png" alt="loginuser.JPG" /> </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -177,11 +177,11 @@ Mata Kuliah Rekayasa Perangkat Lunak
 <ol>
   <li>Sequence Bank Soal</li>
 </ol>
-<p><img width="454" height="460" src="bausir.net/gambar/gbr9.jpg" alt="soal.jpeg" /> </p>
+<p><img width="454" height="460" src="http://bausir.net/gambar/gbr9.jpg" alt="soal.jpeg" /> </p>
 <ol>
   <li>Sequence Jadwal Test</li>
 </ol>
-<p><img width="446" height="389" src="bausir.net/gambar/gbr10.jpg" alt="jadwal.jpeg" /> </p>
+<p><img width="446" height="389" src="http://bausir.net/gambar/gbr10.jpg" alt="jadwal.jpeg" /> </p>
 <ol>
   <li>Sequence Test User</li>
   <li>Sequence Rekap Nilai</li>
@@ -270,3 +270,4 @@ Mata Kuliah Rekayasa Perangkat Lunak
   <li>Data mahasiswa lengkap mahasiswa  tidak disimpan pada sistem ini kecuali NIM dan Namanya saat mengikuti test</li>
   <li>Download rekap nilai hanya dalam  bentuk file excel</li>
 </ul>
+
