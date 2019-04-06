@@ -183,8 +183,13 @@ Mata Kuliah Rekayasa Perangkat Lunak
 </ol>
 <p><img  src="http://bausir.net/gambar/gbr10.jpeg" alt="jadwal.jpeg" /> </p>
 <ol>
+  
   <li>Sequence Test User</li>
+  <p><img  src="http://bausir.net/gambar/test.jpeg" alt="jadwal.jpeg" /> </p>
+  </ol>
+  <ol>
   <li>Sequence Rekap Nilai</li>
+  <p><img  src="http://bausir.net/gambar/rekapnilai.jpeg" alt="jadwal.jpeg" /> </p>
 </ol>
 <p><strong>3.2 Kebutuhan Non Fungsional</strong> </p>
 <p>Dalam &nbsp;sistem &nbsp;test  online &nbsp;ini, &nbsp;kebutuhan &nbsp;yang &nbsp;mendukung  &nbsp;kelancaran  fungsi-fungsi utama dapat didefinisikan pada  Tabel 1.</p>
