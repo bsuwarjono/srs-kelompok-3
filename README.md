@@ -164,30 +164,26 @@ Mata Kuliah Rekayasa Perangkat Lunak
 <p><strong>3.1.2 Sequence Diagram</strong></p>
 <ol>
   <li>Sequence Login Admin</li>
-</ol>
+
 <p><img  src="http://bausir.net/gambar/login.jpeg" alt="login.JPG" /> </p>
-<ol>
+
   <li>Sequence Login User</li>
-</ol>
-<p><img  src="http://bausir.net/gambar/gbr8.png" alt="loginuser.JPG" /> </p>
+
+<p><img  src="http://bausir.net/gambar/gbr9.png" alt="loginuser.JPG" /> </p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<ol>
+
   <li>Sequence Bank Soal</li>
-</ol>
-<p><img  src="http://bausir.net/gambar/gbr9.jpeg" alt="soal.jpeg" /> </p>
-<ol>
+
+<p><img  src="http://bausir.net/gambar/gbr10.jpeg" alt="soal.jpeg" /> </p>
+
   <li>Sequence Jadwal Test</li>
-</ol>
-<p><img  src="http://bausir.net/gambar/gbr10.jpeg" alt="jadwal.jpeg" /> </p>
-<ol>
+
+<p><img  src="http://bausir.net/gambar/gbr11.jpeg" alt="jadwal.jpeg" /> </p>
+
   
   <li>Sequence Test User</li>
   <p><img  src="http://bausir.net/gambar/test.jpeg" alt="jadwal.jpeg" /> </p>
-  </ol>
-  <ol>
+ 
   <li>Sequence Rekap Nilai</li>
   <p><img  src="http://bausir.net/gambar/rekapnilai.jpeg" alt="jadwal.jpeg" /> </p>
 </ol>
