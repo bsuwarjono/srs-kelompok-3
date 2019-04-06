@@ -165,7 +165,7 @@ Mata Kuliah Rekayasa Perangkat Lunak
 <ol>
   <li>Sequence Login Admin</li>
 </ol>
-<p><img  src="http://bausir.net/gambar/gbr7.jpeg" alt="login.JPG" /> </p>
+<p><img  src="http://bausir.net/gambar/login.jpeg" alt="login.JPG" /> </p>
 <ol>
   <li>Sequence Login User</li>
 </ol>
