@@ -169,7 +169,7 @@ Mata Kuliah Rekayasa Perangkat Lunak
 
   <li>Sequence Login User</li>
 
-<p><img  src="http://bausir.net/gambar/gbr9.png" alt="loginuser.JPG" /> </p>
+<p><img  src="http://bausir.net/gambar/gbr9.jpeg" alt="loginuser.JPG" /> </p>
 <p>&nbsp;</p>
 
   <li>Sequence Bank Soal</li>
