@@ -187,6 +187,8 @@ Mata Kuliah Rekayasa Perangkat Lunak
   <li>Sequence Rekap Nilai</li>
   <p><img  src="http://bausir.net/gambar/rekapnilai.jpeg" alt="jadwal.jpeg" /> </p>
 </ol>
+<p><strong>3.1.3 Class Diagram</strong> </p>
+ <p><img  src="http://bausir.net/gambar/classdiagram.jpeg" alt="jadwal.jpeg" /> </p>
 <p><strong>3.2 Kebutuhan Non Fungsional</strong> </p>
 <p>Dalam &nbsp;sistem &nbsp;test  online &nbsp;ini, &nbsp;kebutuhan &nbsp;yang &nbsp;mendukung  &nbsp;kelancaran  fungsi-fungsi utama dapat didefinisikan pada  Tabel 1.</p>
 <p><strong>T</strong><strong>abel 2  Kebutuhan Non Fungsional</strong></p>
