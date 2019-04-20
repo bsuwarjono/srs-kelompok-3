@@ -273,3 +273,10 @@ Mata Kuliah Rekayasa Perangkat Lunak
   <li>Data mahasiswa lengkap mahasiswa  tidak disimpan pada sistem ini kecuali NIM dan Namanya saat mengikuti test</li>
   <li>Download rekap nilai hanya dalam  bentuk file excel</li>
 </ul>
+
+
+<p> </p>
+
+<p> lihat hasil aplikasi test online  http://bausir.net/testonline/ </p>
+
+<p>untuk masuk sebagai admin -- user: susi & pass : 12345</p>
